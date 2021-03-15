@@ -2,7 +2,7 @@ package com.mycompany;
 
 import java.util.Arrays;
 
-public class ContainsDuplicate {
+public class SortContainsDuplicate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

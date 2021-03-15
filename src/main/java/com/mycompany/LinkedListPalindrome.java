@@ -2,7 +2,7 @@ package com.mycompany;
 
 import com.mycompany.util.LinkNode;
 
-public class PalindromeLinkedList {
+public class LinkedListPalindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

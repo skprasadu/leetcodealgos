@@ -1,6 +1,6 @@
 package com.mycompany;
 
-public class TwoSum {
+public class MapTwoSum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
