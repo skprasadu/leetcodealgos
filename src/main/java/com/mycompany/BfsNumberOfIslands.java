@@ -11,6 +11,12 @@ public class BfsNumberOfIslands {
 				{1,1,0,0,0}, 
 				{0,0,0,0,0}};
 		
+		int count = solve(islands);
+		
+		System.out.println(count);
+	}
+
+	private static int solve(int[][] islands) {
 		int count = 0;
 		for(int i = 0; i < islands.length; i++) {
 			for(int j = 0; j < islands[i].length; j++) {
@@ -20,8 +26,7 @@ public class BfsNumberOfIslands {
 				}
 			}
 		}
-		
-		System.out.println(count);
+		return count;
 	}
 
 	private static void bfs(int[][] islands, int i, int j) {

@@ -5,37 +5,25 @@ public class BfsSurroundedRegion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int [][] islands = {
-				{1,1,1,1,0}, 
-				{1,1,0,1,0}, 
-				{1,1,0,0,0}, 
-				{0,0,0,0,0}};
+		char [][] islands = {
+				{'x','x','x','x'}, 
+				{'x','o','o','x'}, 
+				{'x','x','o','x'}, 
+				{'x','o','x','x'}};
 		
-		int count = 0;
-		for(int i = 0; i < islands.length; i++) {
-			for(int j = 0; j < islands[i].length; j++) {
-				if(islands[i][j] == 1 ) {
-					count++;
-					bfs(islands, i, j);
-				}
-			}
-		}
+		//TODO: to be completed
+		int count = solve(islands);
 		
 		System.out.println(count);
 	}
 
-	private static void bfs(int[][] islands, int i, int j) {
-		// TODO Auto-generated method stub
-		if(i < 0 || i > (islands.length -1) || j < 0 || j > (islands[i].length -1) || islands[i][j] == 0) {
-			return;
-		}
+	private static int solve(char[][] islands) {
+		return 0;
 		
-		islands[i][j] = 0;
-		
-		bfs(islands, i+1, j);
-		bfs(islands, i-1, j);
-		bfs(islands, i, j+1);
-		bfs(islands, i, j-1);
+	}
+
+	private static void bfs(char[][] islands, int i, int j) {
+	
 	}
 
 }
