@@ -1,6 +1,6 @@
 package com.hcl.algobasics;
 
-public class TwoSumSorted {
+public class TwoSum_Sorted {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

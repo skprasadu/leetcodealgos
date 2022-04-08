@@ -3,7 +3,7 @@ package com.hcl.algobasics;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSum_NSqr {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

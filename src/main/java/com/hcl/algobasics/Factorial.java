@@ -1,6 +1,6 @@
 package com.hcl.algobasics;
 
-public class Recursion {
+public class Factorial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

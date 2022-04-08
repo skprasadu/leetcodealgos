@@ -3,7 +3,7 @@ package com.hcl.algobasics;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ProductData {
+public class ProductData_Set {
 
 	/*
 	 * Let us say, you have 3 inputs, I want to find, how many of them 

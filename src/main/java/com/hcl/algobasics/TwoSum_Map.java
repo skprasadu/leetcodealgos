@@ -3,7 +3,7 @@ package com.hcl.algobasics;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum2 {
+public class TwoSum_Map {
 	/**
 	 * 
 	 * @param args

@@ -3,7 +3,7 @@ package com.hcl.algobasics;
 import java.util.HashMap;
 import java.util.Vector;
 
-public class MaxRepeatingChars {
+public class MaxRepeatingChars_ControlFlow {
 
 	/*
 	 * Return index of 1 occurrence of maximum occurring character in an input string.
@@ -33,8 +33,7 @@ public class MaxRepeatingChars {
 	        	count++;
 	        } else {
 	        	if(count > 1) {
-	        		output += curChar;
-	        		output += count;
+	        		output += ("" + curChar) + count;
 	        	} else {
 	        		output += curChar;
 	        	}
@@ -45,7 +44,7 @@ public class MaxRepeatingChars {
 	    }
 	    
 	    if(count > 1) {
-    		output += curChar + count;
+    		output += ("" + curChar) + count;
     	} else {
     		output += curChar;
     	}

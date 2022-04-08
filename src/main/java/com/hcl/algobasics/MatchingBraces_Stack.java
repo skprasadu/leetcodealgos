@@ -3,7 +3,7 @@ package com.hcl.algobasics;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
-public class MatchingBraces {
+public class MatchingBraces_Stack {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

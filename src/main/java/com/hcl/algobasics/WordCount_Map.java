@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class WordCount {
+public class WordCount_Map {
 
 	//Stirng[] input = {"cup", "cake", "cup", "cup", "cake"};
 	//String[] output = {"cup", "cake", "cup1", "cup2", "cake1"};

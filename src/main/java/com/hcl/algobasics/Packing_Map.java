@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Packing {
+public class Packing_Map {
 
 	/*
 	 * Complete the function getMaxUnits in the editor below.
