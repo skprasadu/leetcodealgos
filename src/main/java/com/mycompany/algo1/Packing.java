@@ -13,8 +13,8 @@ public class Packing {
 
 		System.out.println(pack(boxes, unitsPerBox, truckSize));
 
-		int[] boxes1 = { 3, 1, 6 };
-		int[] unitsPerBox1 = { 2, 7, 4 };
+		int[] boxes1 = { 2, 7, 4 };
+		int[] unitsPerBox1 = { 3, 1, 6 };
 		int truckSize1 = 6;
 		System.out.println(pack(boxes1, unitsPerBox1, truckSize1));
 	}
@@ -26,21 +26,19 @@ public class Packing {
 			map.put(boxes[i], unitsPerBox[i]);
 		}
 
-		int maxPack = 0;
-		int curSize = truckSize;
-		for (Integer key : map.keySet()) {
-			for (int i = 1; i <= map.get(key); i++) {
-				if (curSize != 0) {
-					maxPack += (key * 1);
-					curSize -= 1;
-				} else {
-					break;
-				}
+		int result = 0;
+		for (Integer box : map.keySet()) {
+			int units = map.get(box);
+			if (units < truckSize) {
+				result += box * units;
+				truckSize -= units;
+			} else {
+				result += box * truckSize;
+				truckSize = 0;
 			}
-
 		}
 
-		return maxPack;
+		return result;
 	}
 
 }
