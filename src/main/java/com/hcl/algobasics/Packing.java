@@ -1,4 +1,4 @@
-package com.mycompany.algo1;
+package com.hcl.algobasics;
 
 import java.util.Collections;
 import java.util.Map;
@@ -6,6 +6,20 @@ import java.util.TreeMap;
 
 public class Packing {
 
+	/*
+	 * Complete the function getMaxUnits in the editor below.
+	 * getMaxUnits has the following parameters:
+	 * 
+	 * 	long boxes[n]: a long integer array where boxes[i] denotes the number 
+	 * of boxes product i that are available
+	 * 	long unitsPerBox[n]: a long integer array where unitsPerBox[i] denotes 
+	 * the number of units of product i that are packed in each box of size boxes[i]
+	 * 	long truckSize: a long integer that denotes the number of boxes the truck 
+	 * can carry
+	 * Returns:
+	 * 	long: a long integer that denotes the maximum units that can be carried 
+	 * by the truck
+	 */
 	public static void main(String[] args) {
 		int[] boxes = { 1, 3, 2 };
 		int[] unitsPerBox = { 3, 1, 2 };

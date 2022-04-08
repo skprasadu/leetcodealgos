@@ -1,5 +1,5 @@
 
-package com.mycompany;
+package com.hcl.algoadvanced;
 
 import java.util.ArrayList;
 import java.util.List;

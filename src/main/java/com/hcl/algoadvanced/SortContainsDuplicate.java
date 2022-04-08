@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.hcl.algoadvanced;
 
 import java.util.Arrays;
 

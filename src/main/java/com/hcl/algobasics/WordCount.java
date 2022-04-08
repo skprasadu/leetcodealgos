@@ -1,4 +1,4 @@
-package com.mycompany.algo1;
+package com.hcl.algobasics;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.mycompany.algo1;
+package com.hcl.algobasics;
 
 import java.util.EmptyStackException;
 import java.util.Stack;

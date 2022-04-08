@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.hcl.algoadvanced;
 
 public class MapHandOfStraight {
 	public static void main(String[] args) {

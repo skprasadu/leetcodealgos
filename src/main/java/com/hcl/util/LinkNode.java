@@ -1,4 +1,4 @@
-package com.mycompany.util;
+package com.hcl.util;
 
 public class LinkNode {
 	

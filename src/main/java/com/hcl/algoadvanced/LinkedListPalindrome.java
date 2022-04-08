@@ -1,6 +1,6 @@
-package com.mycompany;
+package com.hcl.algoadvanced;
 
-import com.mycompany.util.LinkNode;
+import com.hcl.util.LinkNode;
 
 public class LinkedListPalindrome {
 
