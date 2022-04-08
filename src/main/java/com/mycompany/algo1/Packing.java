@@ -12,9 +12,9 @@ public class Packing {
 		int truckSize = 3;
 
 		System.out.println(pack(boxes, unitsPerBox, truckSize));
-		
-		int[] boxes1 = {3, 1, 6};
-		int[] unitsPerBox1 = {2, 7, 4};
+
+		int[] boxes1 = { 3, 1, 6 };
+		int[] unitsPerBox1 = { 2, 7, 4 };
 		int truckSize1 = 6;
 		System.out.println(pack(boxes1, unitsPerBox1, truckSize1));
 	}
@@ -29,12 +29,15 @@ public class Packing {
 		int maxPack = 0;
 		int curSize = truckSize;
 		for (Integer key : map.keySet()) {
-			if (curSize != 0) {
-				maxPack += (key * map.get(key));
-				curSize -= map.get(key);
-			} else {
-				break;
+			for (int i = 1; i <= map.get(key); i++) {
+				if (curSize != 0) {
+					maxPack += (key * 1);
+					curSize -= 1;
+				} else {
+					break;
+				}
 			}
+
 		}
 
 		return maxPack;
